@@ -1,0 +1,69 @@
+﻿@model DTH215955_Nguyễn_Trọng_Khang.Models.Sach
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Sach</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="TenSach" class="control-label"></label>
+                <input asp-for="TenSach" class="form-control" />
+                <span asp-validation-for="TenSach" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GiaBan" class="control-label"></label>
+                <input asp-for="GiaBan" class="form-control" />
+                <span asp-validation-for="GiaBan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MoTa" class="control-label"></label>
+                <input asp-for="MoTa" class="form-control" />
+                <span asp-validation-for="MoTa" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NhaXuatBan" class="control-label"></label>
+                <input asp-for="NhaXuatBan" class="form-control" />
+                <span asp-validation-for="NhaXuatBan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TheLoaiId" class="control-label"></label>
+                <select asp-for="TheLoaiId" class="form-control" asp-items="ViewBag.TheLoaiId"></select>
+                <span asp-validation-for="TheLoaiId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Hinh" class="control-label"></label>
+
+                <!-- Input để thay đổi hình ảnh -->
+                <input name="Image" class="form-control" type="file" accept="image/jpg, image/jpeg , image/png" />
+                <input asp-for="Hinh" class="form-control" type="hidden" value="@Model.Hinh" />
+                <span asp-validation-for="Hinh" class="text-danger"></span>
+                <!-- Hiển thị hình ảnh hiện tại -->
+                @if (!string.IsNullOrEmpty(Model.Hinh))
+                {
+                    <div class="mb-3">
+                        <img src="@Url.Content("~/images/" + Model.Hinh)" class="img-thumbnail" alt="Current Image" style="max-width: 200px;" />
+                    </div>
+                }
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<DTH215955_Nguyễn_Trọng_Khang.Models.Sach>
+
+@{
+    ViewData["Title"] = "Danh Sách Sách";
+}
+
+<h1 class="text-primary text-center mb-4">@ViewData["Title"]</h1>
+<p>
+    <a asp-action="Create" class="btn btn-primary">Thêm sách mới</a>
+</p>
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var item in Model)
+        {
+            <div class="col">
+                <div class="card shadow-sm h-100">
+                    <!-- Hình ảnh sách -->
+                    <img src="~/images/@item.Hinh" class="card-img-top" alt="Hình ảnh sách" style="max-height: 250px; object-fit: contain;" />
+
+                    <!-- Nội dung sách -->
+                    <div class="card-body">
+                        <h5 class="card-title text-info">@item.TenSach</h5>
+                        <p class="card-text text-success">@item.NhaXuatBan</p>
+                        <p class="card-text text-danger">Giá: @String.Format("{0:0,0}", item.GiaBan) đ</p>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Chi tiết</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Xóa</a>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Chỉnh sửa</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,44 @@
+﻿@model DTH215955_Nguyễn_Trọng_Khang.Models.Theloai
+
+@{
+    ViewData["Title"] = "Chi tiết thể loại";
+}
+
+<h4>Danh sách sách thuộc thể loại - @Model.Ten</h4>
+<hr />
+<table class="table table-striped">
+    <thead style="background-color: cornflowerblue; color: white;" class="text-center">
+        <tr>
+            <th>Bìa</th>
+            <th>Tên sách</th>
+            <th>Mô tả</th>
+            <th>Nhà xuất bản</th>
+            <th>Giá bán</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var sach in Model.Saches)
+        {
+            <tr>
+                <td>
+                    <img src="~/images/@sach.Hinh" alt="Bìa sách" style="width: 100px; height: auto;" />
+                </td>
+                <td>@sach.TenSach</td>
+                <td>@sach.MoTa</td>
+                <td>@sach.NhaXuatBan</td>
+                <td>@String.Format("{0:0,0} đ", sach.GiaBan)</td>
+                <td>
+                    <a asp-action="Details" asp-controller="Saches" asp-route-id="@sach.Id" class="btn btn-primary btn-sm">Chi tiết</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="Index">Trở về danh sách thể loại</a>
+</div>
+
+
+

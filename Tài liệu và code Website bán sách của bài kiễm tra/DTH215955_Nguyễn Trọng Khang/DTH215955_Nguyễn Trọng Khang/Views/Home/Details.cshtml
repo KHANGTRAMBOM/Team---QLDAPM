@@ -1,0 +1,55 @@
+﻿@model DTH215955_Nguyễn_Trọng_Khang.Models.Sach
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 class="mb-4 text-primary">Chi tiết - Sách</h1>
+
+<div class="card shadow-sm">
+    <div class="card-header bg-primary text-white">
+        <h4 class="mb-0">Chi tiết Sách</h4>
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered">
+            <tbody>
+                <tr>
+                    <th class="text-end" style="width: 30%;">@Html.DisplayNameFor(model => model.TenSach)</th>
+                    <td>@Html.DisplayFor(model => model.TenSach)</td>
+                </tr>
+                <tr>
+                    <th class="text-end">@Html.DisplayNameFor(model => model.GiaBan)</th>
+                    <td>@Html.DisplayFor(model => model.GiaBan) VND</td>
+                </tr>
+                <tr>
+                    <th class="text-end">@Html.DisplayNameFor(model => model.MoTa)</th>
+                    <td>@Html.DisplayFor(model => model.MoTa)</td>
+                </tr>
+                <tr>
+                    <th class="text-end">@Html.DisplayNameFor(model => model.NhaXuatBan)</th>
+                    <td>@Html.DisplayFor(model => model.NhaXuatBan)</td>
+                </tr>
+                <tr>
+                    <th class="text-end">Thể Loại</th>
+                    <td>@Html.DisplayFor(model => model.TheLoai.Ten)</td>
+                </tr>
+                <tr>
+                    <th class="text-end">@Html.DisplayNameFor(model => model.Hinh)</th>
+                    <td>
+                        @if (!string.IsNullOrEmpty(Model.Hinh))
+                        {
+                            <img src="~/images/@Model.Hinh" class="img-thumbnail" style="max-width: 200px;" alt="Book Image" />
+                        }
+                        else
+                        {
+                            <span class="text-muted">No image available</span>
+                        }
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="card-footer text-end">
+        <a asp-action="Index" class="btn btn-secondary">Trở về trang chủ</a>
+    </div>
+</div>

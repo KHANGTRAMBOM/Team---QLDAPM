@@ -1,0 +1,60 @@
+﻿@model DTH215955_Nguyễn_Trọng_Khang.Models.Sach
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1 class="mb-4 text-danger">Delete</h1>
+
+<div class="card shadow-sm">
+    <div class="card-header bg-danger text-white">
+        <h4 class="mb-0">Xác nhận xóa sách</h4>
+    </div>
+    <div class="card-body">
+        <p class="text-danger"><strong>Bạn có chắc chắn muốn xóa cuốn sách này không?</strong></p>
+        <table class="table table-bordered">
+            <tbody>
+                <tr>
+                    <th class="text-end" style="width: 30%;">@Html.DisplayNameFor(model => model.TenSach)</th>
+                    <td>@Html.DisplayFor(model => model.TenSach)</td>
+                </tr>
+                <tr>
+                    <th class="text-end">@Html.DisplayNameFor(model => model.GiaBan)</th>
+                    <td>@Html.DisplayFor(model => model.GiaBan) VND</td>
+                </tr>
+                <tr>
+                    <th class="text-end">@Html.DisplayNameFor(model => model.MoTa)</th>
+                    <td>@Html.DisplayFor(model => model.MoTa)</td>
+                </tr>
+                <tr>
+                    <th class="text-end">@Html.DisplayNameFor(model => model.NhaXuatBan)</th>
+                    <td>@Html.DisplayFor(model => model.NhaXuatBan)</td>
+                </tr>
+                <tr>
+                    <th class="text-end">@Html.DisplayNameFor(model => model.Hinh)</th>
+                    <td>
+                        @if (!string.IsNullOrEmpty(Model.Hinh))
+                        {
+                            <img src="~/images/@Model.Hinh" class="img-thumbnail" style="max-width: 150px;" alt="Book Image" />
+                        }
+                        else
+                        {
+                            <span class="text-muted">No image available</span>
+                        }
+                    </td>
+                </tr>
+                <tr>
+                    <th class="text-end">Thể Loại</th>
+                    <td>@Html.DisplayFor(model => model.TheLoai.Ten)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="card-footer text-end">
+        <form asp-action="Delete" class="d-inline">
+            <input type="hidden" asp-for="Id" />
+            <input type="submit" value="Delete" class="btn btn-danger me-2" />
+        </form>
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>

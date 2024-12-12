@@ -1,0 +1,38 @@
+﻿@model IEnumerable<DTH215955_Nguyễn_Trọng_Khang.Models.Theloai>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Trang chính</h1>
+
+<p>
+    <a asp-action="Create">Thêm thể loại mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Ten)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ten)
+            </td>
+            <td>
+                    <div class="btn-group" role="group">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Chỉnh sửa</a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Chi tiết</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Xóa</a>
+                    </div>
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,103 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DTH215955_Nguyễn_Trọng_Khang
+build_property.RootNamespace = DTH215955_Nguyễn_Trọng_Khang
+build_property.ProjectDir = D:\ASP.NET\DTH215955_Nguyễn Trọng Khang\DTH215955_Nguyễn Trọng Khang\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\ASP.NET\DTH215955_Nguyễn Trọng Khang\DTH215955_Nguyễn Trọng Khang
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/ASP.NET/DTH215955_Nguyễn Trọng Khang/DTH215955_Nguyễn Trọng Khang/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/DTH215955_Nguyễn Trọng Khang/DTH215955_Nguyễn Trọng Khang/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/DTH215955_Nguyễn Trọng Khang/DTH215955_Nguyễn Trọng Khang/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/DTH215955_Nguyễn Trọng Khang/DTH215955_Nguyễn Trọng Khang/Views/Saches/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FjaGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/DTH215955_Nguyễn Trọng Khang/DTH215955_Nguyễn Trọng Khang/Views/Saches/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FjaGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/DTH215955_Nguyễn Trọng Khang/DTH215955_Nguyễn Trọng Khang/Views/Saches/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FjaGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/DTH215955_Nguyễn Trọng Khang/DTH215955_Nguyễn Trọng Khang/Views/Saches/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FjaGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/DTH215955_Nguyễn Trọng Khang/DTH215955_Nguyễn Trọng Khang/Views/Saches/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FjaGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/DTH215955_Nguyễn Trọng Khang/DTH215955_Nguyễn Trọng Khang/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/DTH215955_Nguyễn Trọng Khang/DTH215955_Nguyễn Trọng Khang/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/DTH215955_Nguyễn Trọng Khang/DTH215955_Nguyễn Trọng Khang/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/DTH215955_Nguyễn Trọng Khang/DTH215955_Nguyễn Trọng Khang/Views/Theloais/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbG9haXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/DTH215955_Nguyễn Trọng Khang/DTH215955_Nguyễn Trọng Khang/Views/Theloais/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbG9haXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/DTH215955_Nguyễn Trọng Khang/DTH215955_Nguyễn Trọng Khang/Views/Theloais/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbG9haXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/DTH215955_Nguyễn Trọng Khang/DTH215955_Nguyễn Trọng Khang/Views/Theloais/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbG9haXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/DTH215955_Nguyễn Trọng Khang/DTH215955_Nguyễn Trọng Khang/Views/Theloais/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbG9haXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/DTH215955_Nguyễn Trọng Khang/DTH215955_Nguyễn Trọng Khang/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/DTH215955_Nguyễn Trọng Khang/DTH215955_Nguyễn Trọng Khang/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/DTH215955_Nguyễn Trọng Khang/DTH215955_Nguyễn Trọng Khang/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-da56e7lmwr

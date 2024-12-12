@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASP.NET\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF8BBB6E-DA53-492E-B554-FA0036BA3ABB}|DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang.csproj|d:\\asp.net\\dth215955_nguy\u1EC5n tr\u1ECDng khang\\dth215955_nguy\u1EC5n tr\u1ECDng khang\\models\\theloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF8BBB6E-DA53-492E-B554-FA0036BA3ABB}|DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang.csproj|solutionrelative:dth215955_nguy\u1EC5n tr\u1ECDng khang\\models\\theloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF8BBB6E-DA53-492E-B554-FA0036BA3ABB}|DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang.csproj|d:\\asp.net\\dth215955_nguy\u1EC5n tr\u1ECDng khang\\dth215955_nguy\u1EC5n tr\u1ECDng khang\\models\\sach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF8BBB6E-DA53-492E-B554-FA0036BA3ABB}|DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang.csproj|solutionrelative:dth215955_nguy\u1EC5n tr\u1ECDng khang\\models\\sach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF8BBB6E-DA53-492E-B554-FA0036BA3ABB}|DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang.csproj|d:\\asp.net\\dth215955_nguy\u1EC5n tr\u1ECDng khang\\dth215955_nguy\u1EC5n tr\u1ECDng khang\\views\\saches\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF8BBB6E-DA53-492E-B554-FA0036BA3ABB}|DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang.csproj|solutionrelative:dth215955_nguy\u1EC5n tr\u1ECDng khang\\views\\saches\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF8BBB6E-DA53-492E-B554-FA0036BA3ABB}|DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang.csproj|d:\\asp.net\\dth215955_nguy\u1EC5n tr\u1ECDng khang\\dth215955_nguy\u1EC5n tr\u1ECDng khang\\views\\theloais\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF8BBB6E-DA53-492E-B554-FA0036BA3ABB}|DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang.csproj|solutionrelative:dth215955_nguy\u1EC5n tr\u1ECDng khang\\views\\theloais\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF8BBB6E-DA53-492E-B554-FA0036BA3ABB}|DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang.csproj|d:\\asp.net\\dth215955_nguy\u1EC5n tr\u1ECDng khang\\dth215955_nguy\u1EC5n tr\u1ECDng khang\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF8BBB6E-DA53-492E-B554-FA0036BA3ABB}|DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang.csproj|solutionrelative:dth215955_nguy\u1EC5n tr\u1ECDng khang\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF8BBB6E-DA53-492E-B554-FA0036BA3ABB}|DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang.csproj|d:\\asp.net\\dth215955_nguy\u1EC5n tr\u1ECDng khang\\dth215955_nguy\u1EC5n tr\u1ECDng khang\\views\\saches\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF8BBB6E-DA53-492E-B554-FA0036BA3ABB}|DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang.csproj|solutionrelative:dth215955_nguy\u1EC5n tr\u1ECDng khang\\views\\saches\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Theloai.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Models\\Theloai.cs",
+              "RelativeDocumentMoniker": "DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Models\\Theloai.cs",
+              "ToolTip": "D:\\ASP.NET\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Models\\Theloai.cs",
+              "RelativeToolTip": "DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Models\\Theloai.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:37:28.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sach.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Models\\Sach.cs",
+              "RelativeDocumentMoniker": "DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Models\\Sach.cs",
+              "ToolTip": "D:\\ASP.NET\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Models\\Sach.cs",
+              "RelativeToolTip": "DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Models\\Sach.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:37:06.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Views\\Saches\\Index.cshtml",
+              "RelativeDocumentMoniker": "DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Views\\Saches\\Index.cshtml",
+              "ToolTip": "D:\\ASP.NET\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Views\\Saches\\Index.cshtml",
+              "RelativeToolTip": "DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Views\\Saches\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwCAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T09:14:28.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ASP.NET\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T09:05:58.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Views\\Saches\\Create.cshtml",
+              "RelativeDocumentMoniker": "DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Views\\Saches\\Create.cshtml",
+              "ToolTip": "D:\\ASP.NET\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Views\\Saches\\Create.cshtml",
+              "RelativeToolTip": "DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Views\\Saches\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T09:02:34.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Views\\Theloais\\Details.cshtml",
+              "RelativeDocumentMoniker": "DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Views\\Theloais\\Details.cshtml",
+              "ToolTip": "D:\\ASP.NET\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Views\\Theloais\\Details.cshtml",
+              "RelativeToolTip": "DTH215955_Nguy\u1EC5n Tr\u1ECDng Khang\\Views\\Theloais\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T08:48:48.536Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
