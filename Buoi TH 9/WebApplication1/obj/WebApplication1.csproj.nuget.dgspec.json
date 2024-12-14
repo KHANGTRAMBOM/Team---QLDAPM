@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASP.NET\\b8\\WebApplication1\\WebApplication1.csproj": {}
+    "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "D:\\ASP.NET\\b8\\WebApplication1\\WebApplication1.csproj": {
+    "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.NET\\b8\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "D:\\ASP.NET\\b8\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.NET\\b8\\WebApplication1\\obj\\",
+        "outputPath": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
