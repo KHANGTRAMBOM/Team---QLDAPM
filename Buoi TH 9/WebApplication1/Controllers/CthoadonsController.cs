@@ -22,7 +22,7 @@ namespace WebApplication1.Controllers
         // GET: Cthoadons
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Cthoadons.Include(c => c.MaHdNavigation).Include(c => c.MaMhNavigation);
+            var applicationDbContext = _context.Cthoadons.Include(c => c.MaHdNavigation).Include(c => c.MaSachNavigation);
             return View(await applicationDbContext.ToListAsync());
         }
 
@@ -36,7 +36,7 @@ namespace WebApplication1.Controllers
 
             var cthoadon = await _context.Cthoadons
                 .Include(c => c.MaHdNavigation)
-                .Include(c => c.MaMhNavigation)
+                .Include(c => c.MaSachNavigation)
                 .FirstOrDefaultAsync(m => m.MaCthd == id);
             if (cthoadon == null)
             {
@@ -68,7 +68,7 @@ namespace WebApplication1.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["MaHd"] = new SelectList(_context.Hoadons, "MaHd", "MaHd", cthoadon.MaHd);
-            ViewData["MaMh"] = new SelectList(_context.Mathangs, "MaMh", "MaMh", cthoadon.MaMh);
+            ViewData["MaMh"] = new SelectList(_context.Mathangs, "MaSach", "MaSach", cthoadon.MaSach);
             return View(cthoadon);
         }
 
@@ -86,7 +86,7 @@ namespace WebApplication1.Controllers
                 return NotFound();
             }
             ViewData["MaHd"] = new SelectList(_context.Hoadons, "MaHd", "MaHd", cthoadon.MaHd);
-            ViewData["MaMh"] = new SelectList(_context.Mathangs, "MaMh", "MaMh", cthoadon.MaMh);
+            ViewData["MaMh"] = new SelectList(_context.Mathangs, "MaMh", "MaMh", cthoadon.MaSach);
             return View(cthoadon);
         }
 
@@ -123,7 +123,7 @@ namespace WebApplication1.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["MaHd"] = new SelectList(_context.Hoadons, "MaHd", "MaHd", cthoadon.MaHd);
-            ViewData["MaMh"] = new SelectList(_context.Mathangs, "MaMh", "MaMh", cthoadon.MaMh);
+            ViewData["MaMh"] = new SelectList(_context.Mathangs, "MaSach", "MaSach", cthoadon.MaSach);
             return View(cthoadon);
         }
 
@@ -137,7 +137,7 @@ namespace WebApplication1.Controllers
 
             var cthoadon = await _context.Cthoadons
                 .Include(c => c.MaHdNavigation)
-                .Include(c => c.MaMhNavigation)
+                .Include(c => c.MaSachNavigation)
                 .FirstOrDefaultAsync(m => m.MaCthd == id);
             if (cthoadon == null)
             {

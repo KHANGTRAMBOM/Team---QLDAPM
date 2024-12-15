@@ -10,6 +10,9 @@ using WebApplication1.Data;
 using WebApplication1.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages;
+using System.Security.Cryptography;
+using System.Text;
+using Microsoft.Identity.Client.Kerberos;
 
 namespace WebApplication1.Controllers
 {
@@ -17,13 +20,16 @@ namespace WebApplication1.Controllers
     {
         private readonly ApplicationDbContext _context;
 
+		private readonly ILogger<MatHangCustom> _logger;
+
 		private readonly IPasswordHasher<Khachhang> _passwordHasher;
 
 		
-        public MatHangCustom(ApplicationDbContext context, IPasswordHasher<Khachhang> passwordHasher)
+        public MatHangCustom(ApplicationDbContext context, IPasswordHasher<Khachhang> passwordHasher,ILogger<MatHangCustom> logger)
         {
             _context = context;
 			_passwordHasher = passwordHasher;
+			_logger = logger;
 		}
 
         // GET: MatHangCustom
@@ -45,7 +51,7 @@ namespace WebApplication1.Controllers
 
             var mathang = await _context.Mathangs
                 .Include(m => m.MaDmNavigation)
-                .FirstOrDefaultAsync(m => m.MaMh == id);
+                .FirstOrDefaultAsync(m => m.MaSach == id);
             if (mathang == null)
             {
                 return NotFound();
@@ -57,9 +63,9 @@ namespace WebApplication1.Controllers
         // GET: MatHangCustom/Create
         public IActionResult Create()
         {
-			
-			ViewData["MaDm"] = new SelectList(_context.Danhmucs, "MaDm", "MaDm");
-			getData();
+			//ViewData["MaDm"] = new SelectList(_context.Danhmucs, "MaDm", "Ten");
+            ViewData["Ma"] = new SelectList(_context.Danhmucs, "MaDm", "Ten");
+            getData();
 			return View();
         }
 
@@ -68,18 +74,51 @@ namespace WebApplication1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("MaMh,Ten,GiaGoc,GiaBan,SoLuong,MoTa,HinhAnh,MaDm,LuotXem,LuotMua")] Mathang mathang)
+        public async Task<IActionResult> Create([Bind("MaSach,Ten,GiaGoc,GiaBan,SoLuong,MoTa,HinhAnh,MaDm,LuotXem,LuotMua")] Mathang mathang, [Bind]IFormFile Image)
         {
-			
-			if (ModelState.IsValid)
+            ViewData["MaDm"] = new SelectList(_context.Danhmucs, "MaDm", "Ten", mathang.MaDm);
+            getData();
+
+			ModelState.Remove("Cthoadons");
+			ModelState.Remove("MaDmNavigation");
+
+            if (Image != null && Image.Length > 0)
+            {
+                // Lấy tên file
+                var imageFileName = Path.GetFileName(Image.FileName);
+                // Đường dẫn lưu file
+                var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\products", imageFileName);
+
+                // Sao chép file
+                using (var stream = new FileStream(imagePath, FileMode.Create))
+                {
+                    await Image.CopyToAsync(stream);
+                }
+
+                // Lưu tên file vào model
+                mathang.HinhAnh = imageFileName;
+            }
+            else
+            {
+                ModelState.AddModelError("HinhAnh", "Vui lòng tải lên ảnh bìa !!!");
+                return View(mathang);
+            }
+
+
+            foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+            {
+                // Ghi log ra Console (hoặc bạn có thể sử dụng một thư viện log như Serilog hoặc NLog)
+                _logger.LogWarning(error.ErrorMessage);
+            }
+
+            if (ModelState.IsValid)
             {
                 _context.Add(mathang);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["MaDm"] = new SelectList(_context.Danhmucs, "MaDm", "MaDm", mathang.MaDm);
-			getData();
-			return View(mathang);
+
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: MatHangCustom/Edit/5
@@ -96,7 +135,7 @@ namespace WebApplication1.Controllers
             {
                 return NotFound();
             }
-            ViewData["MaDm"] = new SelectList(_context.Danhmucs, "MaDm", "MaDm", mathang.MaDm);
+            ViewData["MaDm"] = new SelectList(_context.Danhmucs, "MaDm", "Ten", mathang.MaDm);
 			getData();
 			return View(mathang);
         }
@@ -106,9 +145,9 @@ namespace WebApplication1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("MaMh,Ten,GiaGoc,GiaBan,SoLuong,MoTa,HinhAnh,MaDm,LuotXem,LuotMua")] Mathang mathang)
+        public async Task<IActionResult> Edit(int id, [Bind("MaSach,Ten,GiaGoc,GiaBan,SoLuong,MoTa,HinhAnh,MaDm,LuotXem,LuotMua")] Mathang mathang)
         {
-			if (id != mathang.MaMh)
+			if (id != mathang.MaSach)
             {
                 return NotFound();
             }
@@ -122,7 +161,7 @@ namespace WebApplication1.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!MathangExists(mathang.MaMh))
+                    if (!MathangExists(mathang.MaSach))
                     {
                         return NotFound();
                     }
@@ -133,7 +172,7 @@ namespace WebApplication1.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["MaDm"] = new SelectList(_context.Danhmucs, "MaDm", "MaDm", mathang.MaDm);
+            ViewData["MaDm"] = new SelectList(_context.Danhmucs, "MaDm", "Ten", mathang.MaDm);
 			getData();
 			return View(mathang);
         }
@@ -149,7 +188,7 @@ namespace WebApplication1.Controllers
 
             var mathang = await _context.Mathangs
                 .Include(m => m.MaDmNavigation)
-                .FirstOrDefaultAsync(m => m.MaMh == id);
+                .FirstOrDefaultAsync(m => m.MaSach == id);
             if (mathang == null)
             {
                 return NotFound();
@@ -175,7 +214,7 @@ namespace WebApplication1.Controllers
 
         private bool MathangExists(int id)
         {
-            return _context.Mathangs.Any(e => e.MaMh == id);
+            return _context.Mathangs.Any(e => e.MaSach == id);
         }
 
 		//Code Thêm
@@ -210,13 +249,13 @@ namespace WebApplication1.Controllers
 		public async Task<IActionResult> AddToCart(int id)
 		{
 			var mathang = await _context.Mathangs
-			.FirstOrDefaultAsync(m => m.MaMh == id);
+			.FirstOrDefaultAsync(m => m.MaSach == id);
 			if (mathang == null)
 			{
 				return NotFound("Sản phẩm không tồn tại");
 			}
 			var cart = GetCartItems();
-			var item = cart.Find(p => p.MatHang.MaMh == id);
+			var item = cart.Find(p => p.MatHang.MaSach == id);
 			if (item != null)
 			{
 				item.SoLuong++;
@@ -248,7 +287,7 @@ namespace WebApplication1.Controllers
 		public IActionResult RemoveItem(int id)
 		{
 			var cart = GetCartItems();
-			var item = cart.Find(p => p.MatHang.MaMh == id);
+			var item = cart.Find(p => p.MatHang.MaSach == id);
 			if (item != null)
 			{
 				cart.Remove(item);
@@ -260,7 +299,7 @@ namespace WebApplication1.Controllers
 		public IActionResult UpdateItem(int id, int quantity)
 		{
 			var cart = GetCartItems();
-			var item = cart.Find(p => p.MatHang.MaMh == id);
+			var item = cart.Find(p => p.MatHang.MaSach == id);
 			if (item != null)
 			{
 				item.SoLuong = quantity;
@@ -293,10 +332,10 @@ namespace WebApplication1.Controllers
 			{
 				var ct = new Cthoadon();
 				ct.MaHd = hd.MaHd;
-				ct.MaMh = i.MatHang.MaMh;
+				ct.MaSach = i.MatHang.MaSach;
 				thanhtien = i.MatHang.GiaBan * i.SoLuong ?? 1;
 				tongtien += thanhtien;
-				ct.DonGia = i.MatHang.GiaBan;
+				ct.DonGia = (int)i.MatHang.GiaBan;
 				ct.SoLuong = (short)i.SoLuong;
 				ct.ThanhTien = thanhtien;
 				_context.Add(ct);
@@ -346,7 +385,8 @@ namespace WebApplication1.Controllers
             kh.Ten = hoten;
             kh.DienThoai = dienthoai;
             kh.Email = email;
-            kh.MatKhau = _passwordHasher.HashPassword(kh, matkhau); // mã hóa mk
+			kh.MatKhau = _passwordHasher.HashPassword(kh, matkhau); // mã hóa mk
+			kh.MatKhau = kh.MatKhau.Substring(0, 10);
             if (ModelState.IsValid)
             {
                 _context.Add(kh);
@@ -355,8 +395,8 @@ namespace WebApplication1.Controllers
             return RedirectToAction(nameof(Login));
         }
 
-		//Dang nhap
-		public IActionResult Login()
+        //Dang nhap
+        public IActionResult Login()
 		{
 			getData();
 			return View();
@@ -367,8 +407,8 @@ namespace WebApplication1.Controllers
 		{
 			var kh = await _context.Khachhangs
 			.FirstOrDefaultAsync(m => m.Email == email);
-			if (kh != null && _passwordHasher.VerifyHashedPassword(kh,
-			kh.MatKhau, matkhau) == PasswordVerificationResult.Success)
+			if (kh != null && _passwordHasher.HashPassword(kh, matkhau).Substring(0,10)
+			 == kh.MatKhau)
 			{
 				// Đăng nhập thành công, thực hiện các hành động cần thiết
 				// Ví dụ: Ghi thông tin người dùng vào Session

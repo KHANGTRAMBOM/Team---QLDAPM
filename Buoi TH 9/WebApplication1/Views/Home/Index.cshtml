@@ -1,9 +1,109 @@
 ﻿@{
-    ViewData["Title"] = "Trang chủ";
+    ViewData["Title"] = "Giới thiệu BBStore";
 }
-<div class="card">
-    <h5 class="card-header">@ViewData["Title"]</h5>
-    <div class="card-body">
-        <p class="card-text">Nội dung trang chủ đang cập nhật.</p>
+
+<div class="container mt-5">
+    <div class="jumbotron text-center bg-info text-white">
+        <h1 class="display-3">Chào mừng đến BBStore</h1>
+        <p class="lead">Khám phá thế giới sách tuyệt vời và đa dạng chỉ với một cú nhấp chuột!</p>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-6">
+            <img src="~/images/a.jpg" alt="BBStore Intro" class="img-fluid rounded shadow-sm">
+        </div>
+        <div class="col-md-6">
+            <h2 class="text-info">Tại sao chọn BBStore?</h2>
+            <p class="text-justify mt-3">
+                Tại BBStore, chúng tôi cung cấp một bộ sưu tập sách đa dạng và phong phú bao gồm các thể loại khác nhau như tiểu thuyết, sách giáo khoa, sách khoa học, và nhiều hơn nữa. Chúng tôi cam kết mang đến cho bạn những đầu sách chất lượng nhất với giá cả phải chăng.
+            </p>
+            <ul class="list-unstyled text-muted">
+                <li><i class="bi bi-check-circle text-info"></i> Sản phẩm đa dạng</li>
+                <li><i class="bi bi-check-circle text-info"></i> Giá cả hợp lý</li>
+                <li><i class="bi bi-check-circle text-info"></i> Giao hàng nhanh chóng</li>
+                <li><i class="bi bi-check-circle text-info"></i> Hỗ trợ khách hàng tận tâm</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col text-center">
+            <h2 class="text-info">Khám phá các danh mục sách của chúng tôi</h2>
+            <p class="text-muted">Duyệt qua các danh mục để tìm những cuốn sách yêu thích của bạn.</p>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm">
+                <img src="~/images/b.jpg" alt="Tiểu thuyết" class="card-img-top rounded">
+                <div class="card-body text-center">
+                    <h5 class="card-title text-info">Tiểu thuyết</h5>
+                    <p class="card-text text-muted">Khám phá những câu chuyện hấp dẫn và lôi cuốn.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm">
+                <img src="~/images/c.jpg" alt="Sách khoa học" class="card-img-top rounded">
+                <div class="card-body text-center">
+                    <h5 class="card-title text-info">Sách khoa học</h5>
+                    <p class="card-text text-muted">Tìm hiểu những kiến thức khoa học thú vị và hữu ích.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm">
+                <img src="~/images/d.jpg" alt="Sách giáo dục" class="card-img-top rounded">
+                <div class="card-body text-center">
+                    <h5 class="card-title text-info">Sách giáo dục</h5>
+                    <p class="card-text text-muted">Các tài liệu học tập chất lượng và cần thiết.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm">
+                <img src="~/images/e.jpg" alt="Sách thiếu nhi" class="card-img-top rounded">
+                <div class="card-body text-center">
+                    <h5 class="card-title text-info">Sách thiếu nhi</h5>
+                    <p class="card-text text-muted">Những cuốn sách thú vị và bổ ích cho trẻ em.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col text-center">
+            <h2 class="text-info">Liên hệ với chúng tôi</h2>
+            <p class="text-muted">Nếu bạn có bất kỳ câu hỏi hoặc cần hỗ trợ, hãy liên hệ với chúng tôi.</p>
+        </div>
     </div>
 </div>
+
+<style>
+    .jumbotron {
+        padding: 3rem 1rem;
+    }
+
+    .card-body h5 {
+        font-weight: bold;
+    }
+
+    .card-body p {
+        font-size: 0.9rem;
+    }
+
+    .btn-info {
+        background-color: #17a2b8;
+        border-color: #17a2b8;
+    }
+
+    .btn-info:hover {
+        background-color: #138496;
+        border-color: #138496;
+    }
+
+    .container {
+        margin-bottom: 50px;
+    }
+</style>

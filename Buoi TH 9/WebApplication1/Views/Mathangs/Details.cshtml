@@ -4,69 +4,86 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1 class="my-4">Chi tiết Sách</h1>
 
-<div>
-    <h4>Mathang</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Ten)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Ten)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.GiaGoc)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.GiaGoc)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.GiaBan)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.GiaBan)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.SoLuong)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.SoLuong)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.MoTa)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.MoTa)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.HinhAnh)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.HinhAnh)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.LuotXem)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.LuotXem)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.LuotMua)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.LuotMua)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.MaDmNavigation)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.MaDmNavigation.MaDm)
-        </dd>
-    </dl>
+<div class="card shadow-sm mb-4">
+    <div class="card-header bg-info text-white">
+        <h4 class="mb-0">Thông tin Sách</h4>
+    </div>
+    <div class="card-body">
+        <dl class="row mb-0">
+            <dt class="col-sm-3">Tên </dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Ten)</dd>
+
+            <dt class="col-sm-3">Giá gốc</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.GiaGoc) ₫</dd>
+
+            <dt class="col-sm-3">Giá bán</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.GiaBan) ₫</dd>
+
+            <dt class="col-sm-3">Số lượng</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.SoLuong)</dd>
+
+            <dt class="col-sm-3">Mô tả</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.MoTa)</dd>
+
+            <dt class="col-sm-3">Hình ảnh</dt>
+            <dd class="col-sm-9">
+                <img src="~/images/products/@Html.DisplayFor(model => model.HinhAnh)" class="img-thumbnail" style="max-width: 150px;" />
+            </dd>
+
+            <dt class="col-sm-3">Lượt xem</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.LuotXem)</dd>
+
+            <dt class="col-sm-3">Lượt mua</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.LuotMua)</dd>
+
+            <dt class="col-sm-3">Thể loại</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.MaDmNavigation.Ten)</dd>
+        </dl>
+    </div>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.MaMh">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+
+<div class="d-flex justify-content-between">
+    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model?.MaSach">
+        <i class="bi bi-pencil"></i> Sửa
+    </a>
+    <a class="btn btn-secondary" asp-action="Index">
+        <i class="bi bi-arrow-left"></i> Trở về danh sách
+    </a>
 </div>
+
+<script>
+        .card - header {
+        background - color: #17a2b8;
+        color: #fff;
+    }
+
+    .card - body dl {
+        margin - bottom: 0;
+    }
+
+    .img - thumbnail {
+        max - width: 150px;
+    }
+
+    .btn - primary {
+        background - color: #007bff;
+        border - color: #007bff;
+    }
+
+    .btn - primary:hover {
+        background - color: #0056b3;
+        border - color: #0056b3;
+    }
+
+    .btn - secondary {
+        background - color: #6c757d;
+        border - color: #6c757d;
+    }
+
+    .btn - secondary:hover {
+        background - color: #5a6268;
+        border - color: #545b62;
+    }
+</script>

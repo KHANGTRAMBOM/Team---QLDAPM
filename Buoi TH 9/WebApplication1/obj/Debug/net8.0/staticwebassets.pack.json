@@ -1,347 +1,463 @@
 {
   "Files": [
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
       "PackagePath": "staticwebassets\\WebApplication1.bundle.scp.css"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\css\\site.css",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\favicon.ico",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images.rar",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images.rar",
       "PackagePath": "staticwebassets\\images.rar"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\carousel\\h1.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\a.jpg",
+      "PackagePath": "staticwebassets\\images\\a.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\b.jpg",
+      "PackagePath": "staticwebassets\\images\\b.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\c.jpg",
+      "PackagePath": "staticwebassets\\images\\c.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\carousel\\h1.jpg",
       "PackagePath": "staticwebassets\\images\\carousel\\h1.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\carousel\\h2.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\carousel\\h2.jpg",
       "PackagePath": "staticwebassets\\images\\carousel\\h2.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\carousel\\h3.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\carousel\\h3.jpg",
       "PackagePath": "staticwebassets\\images\\carousel\\h3.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\products\\g1.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\d.jpg",
+      "PackagePath": "staticwebassets\\images\\d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\e.jpg",
+      "PackagePath": "staticwebassets\\images\\e.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\100vm_9.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\100vm_9.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\80n_akn.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\80n_akn.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\Green and Red Illustrative Christmas Greeting Facebook Ad.png",
+      "PackagePath": "staticwebassets\\images\\products\\Green and Red Illustrative Christmas Greeting Facebook Ad.png"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\Nguyễn Trọng Khang DTH215955 (2).png",
+      "PackagePath": "staticwebassets\\images\\products\\Nguyễn Trọng Khang DTH215955 (2).png"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\Website bán sách.png",
+      "PackagePath": "staticwebassets\\images\\products\\Website bán sách.png"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\dnt_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dnt_1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\drm_dtn_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\drm_dtn_1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\dtav_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dtav_1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\g1.jpg",
       "PackagePath": "staticwebassets\\images\\products\\g1.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\products\\g2.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\g2.jpg",
       "PackagePath": "staticwebassets\\images\\products\\g2.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\products\\g3.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\g3.jpg",
       "PackagePath": "staticwebassets\\images\\products\\g3.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\products\\g4.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\g4.jpg",
       "PackagePath": "staticwebassets\\images\\products\\g4.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\products\\h1.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\h1.jpg",
       "PackagePath": "staticwebassets\\images\\products\\h1.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\products\\h2.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\h2.jpg",
       "PackagePath": "staticwebassets\\images\\products\\h2.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\products\\h3.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\h3.jpg",
       "PackagePath": "staticwebassets\\images\\products\\h3.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\products\\h4.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\h4.jpg",
       "PackagePath": "staticwebassets\\images\\products\\h4.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\products\\h5.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\h5.jpg",
       "PackagePath": "staticwebassets\\images\\products\\h5.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\products\\h6.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\h6.jpg",
       "PackagePath": "staticwebassets\\images\\products\\h6.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\products\\m1.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\htnv_10.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\htnv_10.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\jvcb_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\jvcb_1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\lstg.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lstg.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\ltw_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\ltw_1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\m1.jpg",
       "PackagePath": "staticwebassets\\images\\products\\m1.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\products\\m2.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\m2.jpg",
       "PackagePath": "staticwebassets\\images\\products\\m2.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\products\\m3.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\m3.jpg",
       "PackagePath": "staticwebassets\\images\\products\\m3.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\products\\m4.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\m4.jpg",
       "PackagePath": "staticwebassets\\images\\products\\m4.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\products\\v1.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\pync_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\pync_1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\sgk_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\sgk_1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\sgk_12.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\sgk_12.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\stth.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\stth.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\syn-flood.png",
+      "PackagePath": "staticwebassets\\images\\products\\syn-flood.png"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\ta_6.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\ta_6.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\tctvn_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\tctvn_1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\tnc_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\tnc_4.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\tnn5_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\tnn5_1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\ttcn_30.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\ttcn_30.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\tthvtcx.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\tthvtcx.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\v1.jpg",
       "PackagePath": "staticwebassets\\images\\products\\v1.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\products\\v2.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\v2.jpg",
       "PackagePath": "staticwebassets\\images\\products\\v2.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\products\\v3.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\v3.jpg",
       "PackagePath": "staticwebassets\\images\\products\\v3.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\products\\v4.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\v4.jpg",
       "PackagePath": "staticwebassets\\images\\products\\v4.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\products\\v5.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\v5.jpg",
       "PackagePath": "staticwebassets\\images\\products\\v5.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\products\\v6.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\v6.jpg",
       "PackagePath": "staticwebassets\\images\\products\\v6.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\images\\products\\v7.jpg",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\v7.jpg",
       "PackagePath": "staticwebassets\\images\\products\\v7.jpg"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\js\\site.js",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\images\\products\\vn_lskbg.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\vn_lskbg.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\DH22TH3\\Nam 4\\ASP NET\\Practices\\b8\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\ASP.NET\\ĐỒ ÁN QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

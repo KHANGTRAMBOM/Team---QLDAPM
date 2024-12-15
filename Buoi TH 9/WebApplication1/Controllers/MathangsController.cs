@@ -36,7 +36,7 @@ namespace WebApplication1.Controllers
 
             var mathang = await _context.Mathangs
                 .Include(m => m.MaDmNavigation)
-                .FirstOrDefaultAsync(m => m.MaMh == id);
+                .FirstOrDefaultAsync(m => m.MaSach == id);
             if (mathang == null)
             {
                 return NotFound();
@@ -46,9 +46,10 @@ namespace WebApplication1.Controllers
         }
 
         // GET: Mathangs/Create
+        [HttpGet]
         public IActionResult Create()
         {
-            ViewData["MaDm"] = new SelectList(_context.Danhmucs, "MaDm", "MaDm");
+            ViewData["MaDm"] = new SelectList(_context.Danhmucs, "MaDm", "Ten");
             return View();
         }
 
@@ -57,19 +58,47 @@ namespace WebApplication1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("MaMh,Ten,GiaGoc,GiaBan,SoLuong,MoTa,HinhAnh,MaDm,LuotXem,LuotMua")] Mathang mathang)
+        public async Task<IActionResult> Create2([Bind("MaSach,Ten,GiaGoc,GiaBan,SoLuong,MoTa,HinhAnh,MaDm,LuotXem,LuotMua")] Mathang mathang, [Bind]IFormFile Image)
         {
+            ViewData["MaDm"] = new SelectList(_context.Danhmucs, "MaDm", "Ten", mathang.MaDm);
+
+            ModelState.Remove("Cthoadons");
+            ModelState.Remove("MaDmNavigation");
+
+            if (Image != null && Image.Length > 0)
+            {
+                // Lấy tên file
+                var imageFileName = Path.GetFileName(Image.FileName);
+                // Đường dẫn lưu file
+                var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\products", imageFileName);
+
+                // Sao chép file
+                using (var stream = new FileStream(imagePath, FileMode.Create))
+                {
+                    await Image.CopyToAsync(stream);
+                }
+
+                // Lưu tên file vào model
+                mathang.HinhAnh = imageFileName;
+            }
+            else
+            {
+                ModelState.AddModelError("HinhAnh", "Vui lòng tải lên ảnh bìa !!!");
+                return View(mathang);
+            }
+
             if (ModelState.IsValid)
             {
                 _context.Add(mathang);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["MaDm"] = new SelectList(_context.Danhmucs, "MaDm", "MaDm", mathang.MaDm);
-            return View(mathang);
+
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: Mathangs/Edit/5
+        [HttpGet]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -82,7 +111,8 @@ namespace WebApplication1.Controllers
             {
                 return NotFound();
             }
-            ViewData["MaDm"] = new SelectList(_context.Danhmucs, "MaDm", "MaDm", mathang.MaDm);
+            ViewData["MaDm"] = new SelectList(_context.Danhmucs, "MaDm", "Ten");
+
             return View(mathang);
         }
 
@@ -91,9 +121,33 @@ namespace WebApplication1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("MaMh,Ten,GiaGoc,GiaBan,SoLuong,MoTa,HinhAnh,MaDm,LuotXem,LuotMua")] Mathang mathang)
+        public async Task<IActionResult> Edit2(int id, [Bind("MaSach,Ten,GiaGoc,GiaBan,SoLuong,MoTa,HinhAnh,MaDm,LuotXem,LuotMua")] Mathang mathang, [Bind]IFormFile Image)
         {
-            if (id != mathang.MaMh)
+
+            ViewData["MaDm"] = new SelectList(_context.Danhmucs, "MaDm", "Ten", mathang.MaDm);
+
+            ModelState.Remove("Cthoadons");
+            ModelState.Remove("MaDmNavigation");
+
+            if (Image != null && Image.Length > 0)
+            {
+                // Lấy tên file
+                var imageFileName = Path.GetFileName(Image.FileName);
+                // Đường dẫn lưu file
+                var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\products", imageFileName);
+
+                // Sao chép file
+                using (var stream = new FileStream(imagePath, FileMode.Create))
+                {
+                    await Image.CopyToAsync(stream);
+                }
+
+                // Lưu tên file vào model
+                mathang.HinhAnh = imageFileName;
+            }
+
+
+            if (id != mathang.MaSach)
             {
                 return NotFound();
             }
@@ -107,7 +161,7 @@ namespace WebApplication1.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!MathangExists(mathang.MaMh))
+                    if (!MathangExists(mathang.MaSach))
                     {
                         return NotFound();
                     }
@@ -118,8 +172,8 @@ namespace WebApplication1.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["MaDm"] = new SelectList(_context.Danhmucs, "MaDm", "MaDm", mathang.MaDm);
-            return View(mathang);
+
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: Mathangs/Delete/5
@@ -132,7 +186,7 @@ namespace WebApplication1.Controllers
 
             var mathang = await _context.Mathangs
                 .Include(m => m.MaDmNavigation)
-                .FirstOrDefaultAsync(m => m.MaMh == id);
+                .FirstOrDefaultAsync(m => m.MaSach == id);
             if (mathang == null)
             {
                 return NotFound();
@@ -158,7 +212,7 @@ namespace WebApplication1.Controllers
 
         private bool MathangExists(int id)
         {
-            return _context.Mathangs.Any(e => e.MaMh == id);
+            return _context.Mathangs.Any(e => e.MaSach == id);
         }
     }
 }

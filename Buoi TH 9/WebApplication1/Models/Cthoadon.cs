@@ -16,10 +16,10 @@ public partial class Cthoadon
     [Column("MaHD")]
     public int MaHd { get; set; }
 
-    [Column("MaMH")]
-    public int MaMh { get; set; }
+    [Column("MaSach")]
+    public int MaSach { get; set; }
 
-    public int? DonGia { get; set; }
+    public int DonGia { get; set; }
 
     public short? SoLuong { get; set; }
 
@@ -29,7 +29,7 @@ public partial class Cthoadon
     [InverseProperty("Cthoadons")]
     public virtual Hoadon MaHdNavigation { get; set; } = null!;
 
-    [ForeignKey("MaMh")]
+    [ForeignKey("MaSach")]
     [InverseProperty("Cthoadons")]
-    public virtual Mathang MaMhNavigation { get; set; } = null!;
+    public virtual Mathang MaSachNavigation { get; set; } = null!;
 }

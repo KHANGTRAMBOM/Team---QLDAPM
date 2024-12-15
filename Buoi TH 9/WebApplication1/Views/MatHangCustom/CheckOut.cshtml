@@ -1,32 +1,31 @@
 ﻿@model List<WebApplication1.Models.CartItem>
 @{
 	ViewData["Title"] = "Thanh toán";
-}<
-p>Vui lòng kiểm tra đầy đủ thông tin trước khi hoàn tất đơn hàng</p>
+}
+<p>Vui lòng kiểm tra đầy đủ thông tin trước khi hoàn tất đơn hàng</p>
 <div class="row">
 	<div class="col">
 		<h4 class="text-info">Thông tin khách hàng</h4>
 		<form asp-action="CreateBill">
-			<div class="mb-3">
-				<label>Email</label>
-				<input name="email" class="form-control" type="text" />
-			</div>
-			<div class="mb-3">
-				<label>Họ tên</label>
-				<input name="hoten" class="form-control" type="text" />
-			</div>
-			<div class="mb-3">
-				<label>Điện thoại</label>
-				<input name="dienthoai" class="form-control" type="text" />
-			</div>
-			<div class="mb-3">
-				<label>Địa chỉ</label>
-<textarea name="diachi" class="form-control"></textarea>
-			</div>
-			<div class="mb-3">
-				<input type="submit" class="btn btn-primary" value="Xác nhận đơn
-hàng" />
-			</div>
+				<div class="mb-3">
+					<label>Email</label>
+					<input name="email" class="form-control" type="text" />
+				</div>
+				<div class="mb-3">
+					<label>Họ tên</label>
+					<input name="hoten" class="form-control" type="text" />
+				</div>
+				<div class="mb-3">
+					<label>Điện thoại</label>
+					<input name="dienthoai" class="form-control" type="text" />
+				</div>
+				<div class="mb-3">
+					<label>Địa chỉ</label>
+					<textarea name="diachi" class="form-control"></textarea>
+				</div>
+				<div class="mb-3">
+					<input type="submit" class="btn btn-primary" value="Xác nhận đơn hàng" />
+				</div>
 		</form>
 	</div>
 	<div class="col">

@@ -4,80 +4,108 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1 class="my-4">Quản lý Sách</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="btn btn-primary mb-3" asp-action="Create">
+        <i class="bi bi-plus-circle"></i> Thêm sách mới
+    </a>
 </p>
-<table class="table">
-    <thead>
+
+<table class="table table-hover table-bordered">
+    <thead class="table-dark">
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Ten)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.GiaGoc)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.GiaBan)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SoLuong)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MoTa)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.HinhAnh)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.LuotXem)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.LuotMua)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MaDmNavigation)
-            </th>
-            <th></th>
+            <th scope="col">Tên</th>
+            <th scope="col">Giá gốc</th>
+            <th scope="col">Giá bán</th>
+            <th scope="col">Số lượng</th>
+            <th scope="col">Mô tả</th>
+            <th scope="col">Hình ảnh</th>
+            <th scope="col">Lượt xem</th>
+            <th scope="col">Lượt mua</th>
+            <th scope="col">Loại sách</th>
+            <th scope="col">Hành động</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Ten)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.GiaGoc)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.GiaBan)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SoLuong)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MoTa)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.HinhAnh)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.LuotXem)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.LuotMua)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MaDmNavigation.MaDm)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.MaMh">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.MaMh">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.MaMh">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Ten)</td>
+                <td>@Html.DisplayFor(modelItem => item.GiaGoc)₫</td>
+                <td>@Html.DisplayFor(modelItem => item.GiaBan)₫</td>
+                <td>@Html.DisplayFor(modelItem => item.SoLuong)</td>
+                <td>@Html.DisplayFor(modelItem => item.MoTa)</td>
+                <td>
+                    <img src="~/images/products/@Html.DisplayFor(modelItem => item.HinhAnh)" alt="@Html.DisplayFor(modelItem => item.Ten)" class="img-thumbnail" style="width: 75px; height: auto;" />
+                </td>
+                <td>@Html.DisplayFor(modelItem => item.LuotXem)</td>
+                <td>@Html.DisplayFor(modelItem => item.LuotMua)</td>
+                <td>@Html.DisplayFor(modelItem => item.MaDmNavigation.Ten)</td>
+                <td class="text-center">
+                    <a class="btn btn-outline-warning btn-sm mb-1" asp-action="Edit" asp-route-id="@item.MaSach">
+                        <i class="bi bi-pencil"></i> Sửa
+                    </a>
+                    <a class="btn btn-outline-info btn-sm mb-1" asp-action="Details" asp-route-id="@item.MaSach">
+                        <i class="bi bi-eye"></i> Chi tiết
+                    </a>
+                    <a class="btn btn-outline-danger btn-sm" asp-action="Delete" asp-route-id="@item.MaSach">
+                        <i class="bi bi-trash"></i> Xóa
+                    </a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+
+<script>
+        .table - hover tbody tr:hover {
+        background - color: #f1f1f1;
+    }
+
+    .table thead th {
+        text - align: center;
+    }
+
+    .table tbody td {
+        vertical - align: middle;
+    }
+
+    .btn - sm {
+        font - size: 0.875rem;
+        padding: 0.25rem 0.5rem;
+    }
+
+    .btn - outline - warning {
+        color: #856404;
+        border - color: #856404;
+    }
+
+    .btn - outline - warning:hover {
+        color: #fff;
+        background - color: #856404;
+        border - color: #856404;
+    }
+
+    .btn - outline - info {
+        color: #17a2b8;
+        border - color: #17a2b8;
+    }
+
+    .btn - outline - info:hover {
+        color: #fff;
+        background - color: #17a2b8;
+        border - color: #17a2b8;
+    }
+
+    .btn - outline - danger {
+        color: #dc3545;
+        border - color: #dc3545;
+    }
+
+    .btn - outline - danger:hover {
+        color: #fff;
+        background - color: #dc3545;
+        border - color: #dc3545;
+    }
+</script>

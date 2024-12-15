@@ -4,7 +4,7 @@
 @if (ViewBag.khachhang != null)
 {
 	<h3>Chào @ViewBag.khachhang.Ten!</h3>
-	<p>SV bổ sung nội dung tùy ý</p>
+	<p><a class="nav-link active" aria-current="page" asp-controller="MatHangCustom" asp-action="Index">Trở về trang chính</a></p>
 	<p><a asp-action="Signout">Đăng xuất</a></p>
 }
 else

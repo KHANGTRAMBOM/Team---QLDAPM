@@ -4,42 +4,69 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Tạo mới</h1>
 
-<h4>Mathang</h4>
-<hr />
+<h4>Sách</h4>
+<hr/>
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Create2" asp-controller="Mathangs" enctype="multipart/form-data" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Ten" class="control-label"></label>
+                <label asp-for="Ten" class="control-label">Tên</label>
                 <input asp-for="Ten" class="form-control" />
                 <span asp-validation-for="Ten" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="MoTa" class="control-label"></label>
+                <label asp-for="GiaGoc" class="control-label">Giá gốc</label>
+                <input asp-for="GiaGoc" class="form-control" />
+                <span asp-validation-for="GiaGoc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GiaBan" class="control-label">Giá bán</label>
+                <input asp-for="GiaBan" class="form-control" />
+                <span asp-validation-for="GiaBan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SoLuong" class="control-label">Số lượng</label>
+                <input asp-for="SoLuong" class="form-control" />
+                <span asp-validation-for="SoLuong" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MoTa" class="control-label">Mô tả</label>
                 <input asp-for="MoTa" class="form-control" />
                 <span asp-validation-for="MoTa" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="HinhAnh" class="control-label"></label>
-                <input asp-for="HinhAnh" class="form-control" />
+                <label asp-for="HinhAnh" class="control-label">Hình Ảnh</label>
+                <input name="Image" class="form-control" type="file" accept="image/jpg, image/jpeg , image/png" />
+                <input asp-for="HinhAnh" class="form-control" type="file" value="abc" type="hidden"/>
                 <span asp-validation-for="HinhAnh" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="MaDm" class="control-label"></label>
-                <select asp-for="MaDm" class ="form-control" asp-items="ViewBag.MaDm"></select>
+                <label asp-for="MaDm" class="control-label">Loại Sách</label>
+                <select asp-for="MaDm" class ="form-control" asp-items="ViewBag.MaDm">
+                </select>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <label asp-for="LuotXem" class="control-label">Lượt xem</label>
+                <input asp-for="LuotXem" class="form-control" />
+                <span asp-validation-for="LuotXem" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LuotMua" class="control-label">Lượt mua</label>
+                <input asp-for="LuotMua" class="form-control" />
+                <span asp-validation-for="LuotMua" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Thêm mới" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Trở về trang chủ</a>
 </div>
 
 @section Scripts {

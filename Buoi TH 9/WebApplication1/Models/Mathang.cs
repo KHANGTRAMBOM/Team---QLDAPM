@@ -10,8 +10,8 @@ namespace WebApplication1.Models;
 public partial class Mathang
 {
     [Key]
-    [Column("MaMH")]
-    public int MaMh { get; set; }
+    [Column("MaSach")]
+    public int MaSach { get; set; }
 
     [StringLength(100)]
     public string Ten { get; set; } = null!;
@@ -30,16 +30,16 @@ public partial class Mathang
     public string? HinhAnh { get; set; }
 
     [Column("MaDM")]
-    public int MaDm { get; set; }
+    public int? MaDm { get; set; }
 
     public int? LuotXem { get; set; }
 
     public int? LuotMua { get; set; }
 
-    [InverseProperty("MaMhNavigation")]
+    [InverseProperty("MaSachNavigation")]
     public virtual ICollection<Cthoadon> Cthoadons { get; set; } = new List<Cthoadon>();
 
     [ForeignKey("MaDm")]
     [InverseProperty("Mathangs")]
-    public virtual Danhmuc MaDmNavigation { get; set; } = null!;
+    public virtual Danhmuc? MaDmNavigation { get; set; }
 }

@@ -1,44 +1,35 @@
 ﻿@model IEnumerable<WebApplication1.Models.Danhmuc>
 
 @{
-    ViewData["Title"] = "Danh mục sản phẩm";
+    ViewData["Title"] = "Index";
 }
 
-<div class="card">
-    <h5 class="card-header">@ViewData["Title"]</h5>
-    <div class="card-body">
-        <p><a asp-action="Create" class="btn btn-success"><i class="fa-light fa-plus"></i> Thêm mới</a></p>
-        <table class="table table-sm table-hover table-striped table-bordered mb-0">
-            <thead>
-                <tr>
-                    Biên soạn: Nguyễn Hoàng Tùng (nhtung.id.vn)
-                    <th width="5%">#</th>
-                    <th>@Html.DisplayNameFor(model => model.Ten)</th>
-                    <th width="40%">@Html.DisplayNameFor(model => model.TenKhongDau)</th>
-                    <th width="5%">Sửa</th>
-                    <th width="5%">Xóa</th>
-                </tr>
-            </thead>
-            <tbody>
-                @{
-                    var stt = 1;
-                }
-                @foreach (var item in Model)
-                {
-                    <tr>
-                        <td>@stt</td>
-                        <td>@Html.DisplayFor(modelItem => item.Ten)</td>
-                        <td>@Html.DisplayFor(modelItem => item.TenKhongDau)</td>
-                        <td class="text-center">
-                            <a asp-action="Edit" asp-route-id="@item.MaDm"><i class="fa-light fa-pen-to-square"></i></a>
-                        </td>
-                        <td class="text-center">
-                            <a asp-action="Delete" asp-route-id="@item.MaDm"><i class="fa-light fa-trash-can text-danger"></i></a>
-                        </td>
-                    </tr>
-                    stt++;
-                }
-            </tbody>
-        </table>
-    </div>
-</div>
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Ten)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ten)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MaDm">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.MaDm">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaDm">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
