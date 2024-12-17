@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\asp.net\\\u0111\u1ED3 \u00E1n qldapm\\team---qldapm\\buoi th 9\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\asp.net\\\u0111\u1ED3 \u00E1n qldapm\\team---qldapm\\buoi th 9\\webapplication1\\controllers\\mathangcustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:controllers\\mathangcustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\asp.net\\\u0111\u1ED3 \u00E1n qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\mathangcustom\\_layoutcustom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\mathangcustom\\_layoutcustom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\asp.net\\\u0111\u1ED3 \u00E1n qldapm\\team---qldapm\\buoi th 9\\webapplication1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 43,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +39,56 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:16:03.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MatHangCustom.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Controllers\\MatHangCustom.cs",
+              "RelativeDocumentMoniker": "Controllers\\MatHangCustom.cs",
+              "ToolTip": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Controllers\\MatHangCustom.cs",
+              "RelativeToolTip": "Controllers\\MatHangCustom.cs",
+              "ViewState": "AgIAAHoBAAAAAAAAAAAWwHIBAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:00:57.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-16T06:59:31.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LayoutCustom.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\MatHangCustom\\_LayoutCustom.cshtml",
+              "RelativeDocumentMoniker": "Views\\MatHangCustom\\_LayoutCustom.cshtml",
+              "ToolTip": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\MatHangCustom\\_LayoutCustom.cshtml",
+              "RelativeToolTip": "Views\\MatHangCustom\\_LayoutCustom.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T06:59:02.182Z"
             }
           ]
         }
