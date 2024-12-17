@@ -1,9 +1,10 @@
 ﻿@model IEnumerable<WebApplication1.Models.Mathang>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Mặt hàng";
 }
 
+<<<<<<< HEAD
 <h1 class="my-4">Quản lý Sách</h1>
 
 <p>
@@ -25,6 +26,27 @@
             <th scope="col">Lượt mua</th>
             <th scope="col">Loại sách</th>
             <th scope="col">Hành động</th>
+=======
+<h1>Danh sách Mặt Hàng</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Tạo mới</a>
+</p>
+
+<table class="table table-bordered table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Ten)</th>
+            <th>@Html.DisplayNameFor(model => model.GiaGoc)</th>
+            <th>@Html.DisplayNameFor(model => model.GiaBan)</th>
+            <th>@Html.DisplayNameFor(model => model.SoLuong)</th>
+            <th>@Html.DisplayNameFor(model => model.MoTa)</th>
+            <th>@Html.DisplayNameFor(model => model.HinhAnh)</th>
+            <th>@Html.DisplayNameFor(model => model.LuotXem)</th>
+            <th>@Html.DisplayNameFor(model => model.LuotMua)</th>
+            <th>@Html.DisplayNameFor(model => model.MaDmNavigation.MaDm)</th>
+            <th>Thao tác</th>
+>>>>>>> 1703e70 (cập nhật mục views/cuahang/index.cshtml)
         </tr>
     </thead>
     <tbody>
@@ -32,6 +54,7 @@
         {
             <tr>
                 <td>@Html.DisplayFor(modelItem => item.Ten)</td>
+<<<<<<< HEAD
                 <td>@Html.DisplayFor(modelItem => item.GiaGoc)₫</td>
                 <td>@Html.DisplayFor(modelItem => item.GiaBan)₫</td>
                 <td>@Html.DisplayFor(modelItem => item.SoLuong)</td>
@@ -52,6 +75,29 @@
                     <a class="btn btn-outline-danger btn-sm" asp-action="Delete" asp-route-id="@item.MaSach">
                         <i class="bi bi-trash"></i> Xóa
                     </a>
+=======
+                <td>@Html.DisplayFor(modelItem => item.GiaGoc)</td>
+                <td>@Html.DisplayFor(modelItem => item.GiaBan)</td>
+                <td>@Html.DisplayFor(modelItem => item.SoLuong)</td>
+                <td>@Html.DisplayFor(modelItem => item.MoTa)</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.HinhAnh))
+                    {
+                        <img src="@Url.Content("~/images/" + item.HinhAnh)" alt="Hình ảnh mặt hàng" width="100" />
+                    }
+                    else
+                    {
+                        <span>Không có ảnh</span>
+                    }
+                </td>
+                <td>@Html.DisplayFor(modelItem => item.LuotXem)</td>
+                <td>@Html.DisplayFor(modelItem => item.LuotMua)</td>
+                <td>@Html.DisplayFor(modelItem => item.MaDmNavigation.MaDm)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.MaMh" class="btn btn-warning btn-sm">Sửa</a>
+                    <a asp-action="Details" asp-route-id="@item.MaMh" class="btn btn-info btn-sm">Chi tiết</a>
+                    <a asp-action="Delete" asp-route-id="@item.MaMh" class="btn btn-danger btn-sm" onclick="return confirm('Bạn có chắc chắn muốn xóa?');">Xóa</a>
+>>>>>>> 1703e70 (cập nhật mục views/cuahang/index.cshtml)
                 </td>
             </tr>
         }
