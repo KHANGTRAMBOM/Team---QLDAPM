@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\da_qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\cuahangs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\cuahangs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\da_qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\khachhangs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\khachhangs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\da_qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\cuahangs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\cuahangs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\da_qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\khachhangs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\khachhangs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\da_qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\cuahangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\cuahangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\da_qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\khachhangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\khachhangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\da_qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\cuahangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\cuahangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\da_qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\khachhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\khachhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,13 +32,52 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Cuahangs\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cuahangs\\Delete.cshtml",
-              "ToolTip": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Cuahangs\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Cuahangs\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBUAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Khachhangs\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Khachhangs\\Delete.cshtml",
+              "ToolTip": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Khachhangs\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Khachhangs\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T15:47:30.732Z",
+              "WhenOpened": "2024-12-18T15:51:40.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Khachhangs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Khachhangs\\Edit.cshtml",
+              "ToolTip": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Khachhangs\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Khachhangs\\Edit.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T15:51:25.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Khachhangs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Khachhangs\\Create.cshtml",
+              "ToolTip": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Khachhangs\\Create.cshtml",
+              "RelativeToolTip": "Views\\Khachhangs\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T15:51:09.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Khachhangs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Khachhangs\\Index.cshtml",
+              "ToolTip": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Khachhangs\\Index.cshtml",
+              "RelativeToolTip": "Views\\Khachhangs\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T15:50:17.218Z",
               "EditorCaption": ""
             },
             {
@@ -56,43 +95,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Cuahangs\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cuahangs\\Edit.cshtml",
-              "ToolTip": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Cuahangs\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Cuahangs\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T15:44:38.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Cuahangs\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cuahangs\\Create.cshtml",
-              "ToolTip": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Cuahangs\\Create.cshtml",
-              "RelativeToolTip": "Views\\Cuahangs\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T15:42:04.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Cuahangs\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cuahangs\\Index.cshtml",
-              "ToolTip": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Cuahangs\\Index.cshtml",
-              "RelativeToolTip": "Views\\Cuahangs\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T15:36:11.639Z"
             }
           ]
         },
