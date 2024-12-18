@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\danhmucs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\danhmucs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\danhmucs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\danhmucs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\danhmucs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\danhmucs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\danhmucs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 43,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,20 +34,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Danhmucs\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Danhmucs\\Delete.cshtml",
               "ToolTip": "D:\\QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Danhmucs\\Delete.cshtml",
               "RelativeToolTip": "Views\\Danhmucs\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-18T16:08:17.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Danhmucs\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Danhmucs\\Edit.cshtml",

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\danhmucs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\danhmucs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\danhmucs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\danhmucs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\danhmucs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\danhmucs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\danhmucs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\danhmucs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\danhmucs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\danhmucs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\danhmucs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\danhmucs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\danhmucs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\danhmucs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 43,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Danhmucs\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Danhmucs\\Delete.cshtml",
@@ -60,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Danhmucs\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Danhmucs\\Create.cshtml",
@@ -72,15 +72,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Danhmucs\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Danhmucs\\Index.cshtml",
               "ToolTip": "D:\\QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Danhmucs\\Index.cshtml",
               "RelativeToolTip": "Views\\Danhmucs\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowD4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T15:57:43.412Z"
+              "WhenOpened": "2024-12-18T15:57:43.412Z",
+              "EditorCaption": ""
             }
           ]
         }
