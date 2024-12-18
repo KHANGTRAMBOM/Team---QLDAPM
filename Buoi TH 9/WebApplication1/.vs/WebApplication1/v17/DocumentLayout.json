@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\da_qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\cuahangs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\cuahangs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\da_qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\cuahangs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\cuahangs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -22,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 43,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Cuahangs\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cuahangs\\Delete.cshtml",
+              "ToolTip": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Cuahangs\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Cuahangs\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T15:47:30.732Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -42,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Cuahangs\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Cuahangs\\Edit.cshtml",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Cuahangs\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Cuahangs\\Create.cshtml",
@@ -63,12 +80,11 @@
               "RelativeToolTip": "Views\\Cuahangs\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T15:42:04.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T15:42:04.642Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\DA_QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Cuahangs\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Cuahangs\\Index.cshtml",
