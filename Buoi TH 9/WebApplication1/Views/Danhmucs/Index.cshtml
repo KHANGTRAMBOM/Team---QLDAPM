@@ -1,7 +1,7 @@
-﻿@model IEnumerable<WebApplication1.Models.Mathang>
+﻿@model IEnumerable<WebApplication1.Models.Danhmuc>
 
 @{
-    ViewData["Title"] = "Mặt hàng";
+    ViewData["Title"] = "Danh mục";
 }
 
 <div class="card">
@@ -13,14 +13,6 @@
                 <tr>
                     <th width="5%">#</th>
                     <th>@Html.DisplayNameFor(model => model.Ten)</th>
-                    <th>@Html.DisplayNameFor(model => model.GiaGoc)</th>
-                    <th>@Html.DisplayNameFor(model => model.GiaBan)</th>
-                    <th>@Html.DisplayNameFor(model => model.SoLuong)</th>
-                    <th>@Html.DisplayNameFor(model => model.MoTa)</th>
-                    <th>@Html.DisplayNameFor(model => model.HinhAnh)</th>
-                    <th>@Html.DisplayNameFor(model => model.LuotXem)</th>
-                    <th>@Html.DisplayNameFor(model => model.LuotMua)</th>
-                    <th>@Html.DisplayNameFor(model => model.MaDmNavigation)</th>
                     <th width="5%">Sửa</th>
                     <th width="5%">Xóa</th>
                 </tr>
@@ -34,28 +26,14 @@
                     <tr>
                         <td>@stt</td>
                         <td>@Html.DisplayFor(modelItem => item.Ten)</td>
-                        <td>@Html.DisplayFor(modelItem => item.GiaGoc)₫</td>
-                        <td>@Html.DisplayFor(modelItem => item.GiaBan)₫</td>
-                        <td>@Html.DisplayFor(modelItem => item.SoLuong)</td>
-                        <td>@Html.DisplayFor(modelItem => item.MoTa)</td>
-                        <td>
-                            <img src="~/images/products/@Html.DisplayFor(modelItem => item.HinhAnh)" alt="@Html.DisplayFor(modelItem => item.Ten)" class="img-thumbnail" style="width: 75px; height: auto;" />
-                        </td>
-                        <td>@Html.DisplayFor(modelItem => item.LuotXem)</td>
-                        <td>@Html.DisplayFor(modelItem => item.LuotMua)</td>
-                        <td>@Html.DisplayFor(modelItem => item.MaDmNavigation.Ten)</td>
                         <td class="text-center">
-                            <a class="btn btn-outline-warning btn-sm mb-1" asp-action="Edit" asp-route-id="@item.MaSach">
-                                <i class="bi bi-pencil"></i> Sửa
-                            </a>
-                            <a class="btn btn-outline-info btn-sm mb-1" asp-action="Details" asp-route-id="@item.MaSach">
-                                <i class="bi bi-eye"></i> Chi tiết
-                            </a>
-                            <a class="btn btn-outline-danger btn-sm" asp-action="Delete" asp-route-id="@item.MaSach">
-                                <i class="bi bi-trash"></i> Xóa
-                            </a>
+                            <a asp-action="Edit" asp-route-id="@item.MaDm"><i class="bi bi-pencil"></i></a>
+                        </td>
+                        <td class="text-center">
+                            <a asp-action="Delete" asp-route-id="@item.MaDm"><i class="bi bi-trash"></i></a>
                         </td>
                     </tr>
+                    stt++;
                 }
             </tbody>
         </table>

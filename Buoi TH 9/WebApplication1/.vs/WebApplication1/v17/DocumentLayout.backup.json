@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\",
+  "WorkspaceRootPath": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\xyz\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\danhmucs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\danhmucs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\asp.net\\\u0111\u1ED3 \u00E1n qldapm\\xyz\\team---qldapm\\buoi th 9\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\danhmucs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\danhmucs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\asp.net\\\u0111\u1ED3 \u00E1n qldapm\\xyz\\team---qldapm\\buoi th 9\\webapplication1\\views\\danhmucs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\danhmucs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\danhmucs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\asp.net\\\u0111\u1ED3 \u00E1n qldapm\\xyz\\team---qldapm\\buoi th 9\\webapplication1\\views\\khachhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\khachhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\asp.net\\\u0111\u1ED3 \u00E1n qldapm\\xyz\\team---qldapm\\buoi th 9\\webapplication1\\views\\danhmucs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\danhmucs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\qldapm\\team---qldapm\\buoi th 9\\webapplication1\\views\\danhmucs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\danhmucs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\asp.net\\\u0111\u1ED3 \u00E1n qldapm\\xyz\\team---qldapm\\buoi th 9\\webapplication1\\views\\danhmucs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\danhmucs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\asp.net\\\u0111\u1ED3 \u00E1n qldapm\\xyz\\team---qldapm\\buoi th 9\\webapplication1\\views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +34,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 43,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout2.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\xyz\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Shared\\_Layout2.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout2.cshtml",
+              "ToolTip": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\xyz\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Shared\\_Layout2.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout2.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T16:53:31.818Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\xyz\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\xyz\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T16:49:35.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\xyz\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Khachhangs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Khachhangs\\Index.cshtml",
+              "ToolTip": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\xyz\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Khachhangs\\Index.cshtml",
+              "RelativeToolTip": "Views\\Khachhangs\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T16:46:16.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Danhmucs\\Delete.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\xyz\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Danhmucs\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Danhmucs\\Delete.cshtml",
-              "ToolTip": "D:\\QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Danhmucs\\Delete.cshtml",
+              "ToolTip": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\xyz\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Danhmucs\\Delete.cshtml",
               "RelativeToolTip": "Views\\Danhmucs\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -48,39 +103,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Danhmucs\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Danhmucs\\Edit.cshtml",
-              "ToolTip": "D:\\QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Danhmucs\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Danhmucs\\Edit.cshtml",
-              "ViewState": "AgIAADEAAAAAAAAAAAAowEwAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\xyz\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Danhmucs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Danhmucs\\Index.cshtml",
+              "ToolTip": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\xyz\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Danhmucs\\Index.cshtml",
+              "RelativeToolTip": "Views\\Danhmucs\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T16:06:58.696Z",
+              "WhenOpened": "2024-12-18T15:57:43.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Danhmucs\\Create.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\xyz\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Danhmucs\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Danhmucs\\Create.cshtml",
-              "ToolTip": "D:\\QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Danhmucs\\Create.cshtml",
+              "ToolTip": "D:\\ASP.NET\\\u0110\u1ED2 \u00C1N QLDAPM\\xyz\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Danhmucs\\Create.cshtml",
               "RelativeToolTip": "Views\\Danhmucs\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T15:59:27.012Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Danhmucs\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Danhmucs\\Index.cshtml",
-              "ToolTip": "D:\\QLDAPM\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Danhmucs\\Index.cshtml",
-              "RelativeToolTip": "Views\\Danhmucs\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T15:57:43.412Z"
+              "WhenOpened": "2024-12-18T15:59:27.012Z",
+              "EditorCaption": ""
             }
           ]
         }
