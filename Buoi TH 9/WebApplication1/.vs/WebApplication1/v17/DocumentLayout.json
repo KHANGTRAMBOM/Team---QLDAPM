@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\QLDAPM-\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\qldapm-\\team---qldapm\\buoi th 9\\webapplication1\\views\\mathangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\mathangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|d:\\qldapm-\\team---qldapm\\buoi th 9\\webapplication1\\views\\mathangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89C053EB-CA49-4897-AC3F-B1E52FD44A49}|WebApplication1.csproj|solutionrelative:views\\mathangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -39,19 +43,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\QLDAPM-\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Mathangs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Mathangs\\Create.cshtml",
+              "ToolTip": "D:\\QLDAPM-\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Mathangs\\Create.cshtml",
+              "RelativeToolTip": "Views\\Mathangs\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T14:08:34.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\QLDAPM-\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Mathangs\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Mathangs\\Index.cshtml",
               "ToolTip": "D:\\QLDAPM-\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\Mathangs\\Index.cshtml",
               "RelativeToolTip": "Views\\Mathangs\\Index.cshtml",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAC8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-17T16:52:12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\QLDAPM-\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -59,12 +76,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAAADIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T07:16:03.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T07:16:03.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MatHangCustom.cs",
               "DocumentMoniker": "D:\\QLDAPM-\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Controllers\\MatHangCustom.cs",
               "RelativeDocumentMoniker": "Controllers\\MatHangCustom.cs",
@@ -76,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "site.css",
               "DocumentMoniker": "D:\\QLDAPM-\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -88,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_LayoutCustom.cshtml",
               "DocumentMoniker": "D:\\QLDAPM-\\Team---QLDAPM\\Buoi TH 9\\WebApplication1\\Views\\MatHangCustom\\_LayoutCustom.cshtml",
               "RelativeDocumentMoniker": "Views\\MatHangCustom\\_LayoutCustom.cshtml",
